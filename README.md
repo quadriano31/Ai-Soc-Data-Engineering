@@ -1,5 +1,8 @@
 # Ai-Soc-Data-Engineering
 
+
+## Architecture Diagram 
+![alt text](image.png)
 ## Overview
 
 This repository contains an Airflow DAG for ingesting, splitting, and embedding multiple PDFs into ChromaDB. The DAG runs every 5 minutes, checking for new PDFs in the specified directory and processing them if found. The setup uses Astro CLI for managing Airflow.
